@@ -3,5 +3,5 @@ export type Activity = {
     userId: number,
     title: string,
     content: string,
-    time: string
+    time: any
 }

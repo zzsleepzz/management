@@ -41,6 +41,7 @@ const routeMap = {
     user: '/user',
     alumni: '/alumni',
     activity: '/activity',
+    donation: '/donation',
 }
 
 const menuOptions = [{
@@ -63,6 +64,10 @@ const menuOptions = [{
     key: 'activity',
     label: '活动',
     icon: renderIcon(UserOutlined),
+}, {
+    key: 'donation',
+    label: '捐款',
+    icon: renderIcon(UserOutlined)
 }]
 
 
@@ -78,6 +83,7 @@ const page = {
     notice: ["公告模块", "公告列表"],
     alumni: ["优秀校友模块", "优秀校友列表"],
     activity: ["活动模块", "活动列表"],
+    donation: ["捐款模块", "捐款列表"],
 }
 
 /**

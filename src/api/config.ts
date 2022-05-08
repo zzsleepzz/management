@@ -3,11 +3,11 @@ import axios, { AxiosRequestConfig } from "axios";
 axios.interceptors.request.use(config => {
     // you can get `config.headers`
 },
-err => {
-    // not 2xx http code
-})
+    err => {
+        // not 2xx http code
+    })
 
-export function get<T>(uri: string): Promise<T> {
+export function get(uri: string): Promise<any> {
     return axios.get(uri)
 }
 
